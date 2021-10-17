@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+h2{
+  color:blue;
+  font-size:1.5rem;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: rgb(236, 234, 250);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.app{
+  display:flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.menu{
+  height:500px;
+  width:500px;
+  background-color: slategray;
+  color:White;
+  position:relative;
+  box-shadow:0px 0px 40px slategray
 }
+.menu button{
+  width:250px;
+  height:50px;
+  border:none;
+  position:absolute;
+  top:170px;
+  left:130px;
+  border-radius:10px;
+  color:white;
+  background-color: black;
+  font-size:1.2rem
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.quiz h1{
+  text-align: center;
+  font-size:1.2rem;
+}
+.quiz{
+  height:500px;
+  width:500px;
+  background-color: steelblue;
+  box-shadow: 0px 0px 40px steelblue;
+  border-radius:30px;
+}
+.btn{
+  display:flex;
+  flex-direction:column;
+}
+.btn button{
+  width:300px;
+  height:40px;
+  margin:30px 0px 10px 100px;
+  background-color: black;
+  color:white;
+  font-size:1rem;
+  border:none;
+  border-radius:10px;
+  box-shadow:0px 0px 10px rgb(10, 10, 10)
+}
+.btn button:active{
+  transform: translateY(2px);
+}
+.endscreen{
+  height:500px;
+  width:500px;
+  background-color: steelblue;
+  box-shadow: 0px 0px 40px steelblue;
+  border-radius:30px;
+  position:relative;
+}
+.endscreen h2{
+  position:absolute;
+  top:200px;
+  left:140px;
+  color:whitesmoke;
 }
